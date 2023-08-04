@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option go_package = "kafka-pubsub/protomessage";
+
+message Message {
+  string symbol = 1;
+  uint64 val = 2;
+  uint64 timestamp = 3;
+}
