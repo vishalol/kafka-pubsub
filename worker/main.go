@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-	numPartitions := 3
+	numPartitions := 2
 	dataStore := store.NewDataStore()
 
 	clients := make([]*kgo.Client, numPartitions)

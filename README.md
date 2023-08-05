@@ -46,3 +46,9 @@ curl --location 'http://localhost:8080/api/message' \
     "val": 101
 }'
 ```
+
+Alternatively, you can run the python script which calls the above API
+
+```bash
+python3 producer.py
+```
